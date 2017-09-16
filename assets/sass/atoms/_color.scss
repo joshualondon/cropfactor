@@ -1,0 +1,27 @@
+/**
+* Please use the colors as stated in this file and please don't override them in your app.
+* Care has been taken to make sure form elements, links and typography contrast are accessible.
+*/
+
+//** greyscale - https://www.viget.com/articles/shades-of-gray-yes-really
+$white: #fff;
+$black: #222222;
+$grey1: darken($white, 9%);
+$grey2: darken($white, 17%);
+$grey3: darken($white, 28%);
+$grey4: darken($white, 39%);
+$grey5: darken($white, 50%);
+$grey6: darken($white, 61%);
+$grey7: darken($white, 72%);
+$grey8: darken($white, 83%);
+$grey9: darken($white, 94%);
+
+$finkit-color-input-unchecked: $white;
+$finkit-color-input-checked: #1fb6ff;
+
+$finkit-color-link: #6e5eff;
+
+$finkit-color-primary: #468EE5;
+$finkit-color-accent: #1fb6ff;
+
+$finkit-color-text: $grey8;

@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Canon",
+    "camera_list": [
+      {
+        "id": 1,
+        "camera_name": "Canon EOS 1000D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 2,
+        "camera_name": "Canon EOS 100D (Rebel SL1)",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 3,
+        "camera_name": "Canon EOS 10D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 4,
+        "camera_name": "Canon EOS 1100D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 5,
+        "camera_name": "Canon EOS 1200D (Rebel T5)",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 6,
+        "camera_name": "Canon EOS-1D",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 7,
+        "camera_name": "Canon EOS-1D Mark II",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 8,
+        "camera_name": "Canon EOS-1D Mark III",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 9,
+        "camera_name": "Canon EOS-1D Mark II N",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 10,
+        "camera_name": "Canon EOS-1D Mark IV",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 11,
+        "camera_name": "Canon EOS-1Ds",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 12,
+        "camera_name": "Canon EOS-1DS Mark II",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 13,
+        "camera_name": "Canon EOS-1Ds Mark III",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 14,
+        "camera_name": "Canon EOS-1D X",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 15,
+        "camera_name": "Canon EOS-1D X MARK II",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 16,
+        "camera_name": "Canon EOS 20D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 17,
+        "camera_name": "Canon EOS 300D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 18,
+        "camera_name": "Canon EOS 30D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 19,
+        "camera_name": "Canon EOS 350D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 20,
+        "camera_name": "Canon EOS 400D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 21,
+        "camera_name": "Canon EOS 40D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 22,
+        "camera_name": "Canon EOS 450D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 23,
+        "camera_name": "Canon EOS 500D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 24,
+        "camera_name": "Canon EOS 50D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 25,
+        "camera_name": "Canon EOS 550D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 26,
+        "camera_name": "Canon EOS 5D",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 27,
+        "camera_name": "Canon EOS 5D Mark II",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 28,
+        "camera_name": "Canon EOS 5D Mark III",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 29,
+        "camera_name": "Canon EOS 5D Mark IV",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 30,
+        "camera_name": "Canon EOS 5DS",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 31,
+        "camera_name": "Canon EOS 5DS R",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 32,
+        "camera_name": "Canon EOS 600D (Rebel T3i)",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 33,
+        "camera_name": "Canon EOS 60D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 34,
+        "camera_name": "Canon EOS 650D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 35,
+        "camera_name": "Canon EOS 6D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 36,
+        "camera_name": "Canon EOS 700D (Rebel T5i)",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 37,
+        "camera_name": "Canon EOS 70D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 38,
+        "camera_name": "Canon EOS 750D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 39,
+        "camera_name": "Canon EOS 760D (Rebel T6s)",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 40,
+        "camera_name": "Canon EOS 77D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 41,
+        "camera_name": "Canon EOS 7D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 42,
+        "camera_name": "Canon EOS 7D Mark II",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 43,
+        "camera_name": "Canon EOS 80D",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 44,
+        "camera_name": "Canon EOS D30",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      },
+      {
+        "id": 45,
+        "camera_name": "Canon EOS D60",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.6,
+        "mm_width": "22.20",
+        "mm_height": "14.80"
+      }
+    ]
+  }, {
+    "id": 2,
+    "manufacturer": "Nikon",
+    "camera_list": [
+      {
+        "id": 1,
+        "camera_name": "Nikon D810",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 2,
+        "camera_name": "Nikon D800E",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 3,
+        "camera_name": "Nikon D800",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 4,
+        "camera_name": "Nikon D600",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 5,
+        "camera_name": "Nikon D610",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 6,
+        "camera_name": "Nikon D750",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 7,
+        "camera_name": "Nikon Df",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 8,
+        "camera_name": "Nikon D4",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 9,
+        "camera_name": "Nikon D4s",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 10,
+        "camera_name": "Nikon D3X",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 11,
+        "camera_name": "Nikon D5",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 12,
+        "camera_name": "Nikon D7200",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 13,
+        "camera_name": "Nikon D3400",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 14,
+        "camera_name": "Nikon D7500",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 15,
+        "camera_name": "Nikon D5500",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 16,
+        "camera_name": "Nikon D500",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 17,
+        "camera_name": "Nikon D5200",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 18,
+        "camera_name": "Nikon D5600",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 19,
+        "camera_name": "Nikon D7100",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 20,
+        "camera_name": "Nikon D5300",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 21,
+        "camera_name": "Nikon D3s",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 22,
+        "camera_name": "Nikon D3300",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 23,
+        "camera_name": "Nikon D3200",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 24,
+        "camera_name": "Nikon D3",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 25,
+        "camera_name": "Nikon D700",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": "36.00",
+        "mm_height": "24.00"
+      },
+      {
+        "id": 26,
+        "camera_name": "Nikon D7000",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 27,
+        "camera_name": "Nikon D5100",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 28,
+        "camera_name": "Nikon D90",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 29,
+        "camera_name": "Nikon D5000",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 30,
+        "camera_name": "Nikon D300s",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 31,
+        "camera_name": "Nikon D3100",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 32,
+        "camera_name": "Nikon D300",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 33,
+        "camera_name": "Nikon D60",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 34,
+        "camera_name": "Nikon D200",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 35,
+        "camera_name": "Nikon D40X",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 36,
+        "camera_name": "Nikon D3000",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 37,
+        "camera_name": "Nikon D80",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 38,
+        "camera_name": "Nikon D2Xs",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 39,
+        "camera_name": "Nikon D2X",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 40,
+        "camera_name": "Nikon D40",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      }
+    ]
+  }, {
+    "id": 3,
+    "manufacturer": "Fujifilm",
+    "camera_list": [
+      {
+        "id": 1,
+        "camera_name": "Fujifilm X-Pro2",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 2,
+        "camera_name": "Fujifilm X-T2",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 3,
+        "camera_name": "Fujifilm X-T1",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 4,
+        "camera_name": "Fujifilm X-T20",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 5,
+        "camera_name": "Fujifilm X-T10",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 6,
+        "camera_name": "Fujifilm X-E2S",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 7,
+        "camera_name": "Fujifilm X-E3",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 8,
+        "camera_name": "Fujifilm X-E2",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 9,
+        "camera_name": "Fujifilm X-A3",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 10,
+        "camera_name": "Fujifilm X-A2",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      },
+      {
+        "id": 11,
+        "camera_name": "Fujifilm X-A10",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.6,
+        "mm_height": 15.6
+      }
+    ]
+  }, {
+    "id": 4,
+    "manufacturer": "Sony",
+    "camera_list": [
+      {
+        "id": 1,
+        "camera_name": "Sony a9",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": 36,
+        "mm_height": 24
+      },
+      {
+        "id": 2,
+        "camera_name": "Sony SLT Alpha 99 II",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": 36,
+        "mm_height": 24
+      },
+      {
+        "id": 3,
+        "camera_name": "Sony SLT Alpha 99",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": 36,
+        "mm_height": 24
+      },
+      {
+        "id": 4,
+        "camera_name": "Sony SLT Alpha 77 II",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 5,
+        "camera_name": "Sony Alpha 580",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 6,
+        "camera_name": "Sony Alpha 850",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": 36,
+        "mm_height": 24
+      },
+      {
+        "id": 7,
+        "camera_name": "Sony Alpha 900",
+        "sensor_type": "Full Frame",
+        "crop_factor": 1,
+        "mm_width": 36,
+        "mm_height": 24
+      },
+      {
+        "id": 8,
+        "camera_name": "Sony SLT Alpha 68",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 9,
+        "camera_name": "Sony SLT Alpha 77",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 10,
+        "camera_name": "Sony SLT Alpha 37",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 11,
+        "camera_name": "Sony SLT Alpha 65",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 12,
+        "camera_name": "Sony SLT Alpha 35",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 13,
+        "camera_name": "Sony SLT Alpha 58",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 14,
+        "camera_name": "Sony SLT Alpha 55",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 15,
+        "camera_name": "Sony SLT Alpha 33",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 16,
+        "camera_name": "Sony Alpha 560",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 17,
+        "camera_name": "Sony Alpha 380",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 18,
+        "camera_name": "Sony Alpha 700",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 19,
+        "camera_name": "Sony Alpha 290",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 20,
+        "camera_name": "Sony Alpha 390",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 21,
+        "camera_name": "Sony Alpha 550",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 22,
+        "camera_name": "Sony Alpha 450",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 23,
+        "camera_name": "Sony Alpha 350",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 24,
+        "camera_name": "Sony Alpha 500",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 25,
+        "camera_name": "Sony Alpha 330",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 26,
+        "camera_name": "Sony Alpha 300",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 27,
+        "camera_name": "Sony Alpha 230",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 28,
+        "camera_name": "Sony Alpha 200",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      },
+      {
+        "id": 29,
+        "camera_name": "Sony Alpha 100",
+        "sensor_type": "APS-C",
+        "crop_factor": 1.5,
+        "mm_width": 23.5,
+        "mm_height": 15.6
+      }
+    ]
+  }
+]

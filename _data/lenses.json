@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Canon",
+    "lens_list": [
+      {
+        "id": 1,
+        "lens_name": "Canon 14mm f/2.8",
+        "focal_length": 14,
+        "fstop": 2.8
+      },
+      {
+        "id": 2,
+        "lens_name": "Canon 15mm f/2.8",
+        "focal_length": 15,
+        "fstop": 2.8
+      },
+      {
+        "id": 3,
+        "lens_name": "Canon 17mm f/4",
+        "focal_length": 17,
+        "fstop": 4
+      },
+      {
+        "id": 4,
+        "lens_name": "Canon 20mm f/2.8",
+        "focal_length": 20,
+        "fstop": 2.8
+      },
+      {
+        "id": 5,
+        "lens_name": "Canon 24mm f/1.4",
+        "focal_length": 24,
+        "fstop": 1.4
+      },
+      {
+        "id": 6,
+        "lens_name": "Canon 24mm f/2.8",
+        "focal_length": 24,
+        "fstop": 2.8
+      },
+      {
+        "id": 7,
+        "lens_name": "Canon 24mm f/3.5",
+        "focal_length": 24,
+        "fstop": 3.5
+      },
+      {
+        "id": 8,
+        "lens_name": "Canon 28mm f/1.8",
+        "focal_length": 28,
+        "fstop": 1.8
+      },
+      {
+        "id": 9,
+        "lens_name": "Canon 28mm f/2.8",
+        "focal_length": 28,
+        "fstop": 2.8
+      },
+      {
+        "id": 10,
+        "lens_name": "Canon 35mm f/1.4",
+        "focal_length": 35,
+        "fstop": 1.4
+      },
+      {
+        "id": 11,
+        "lens_name": "Canon 35mm f/2",
+        "focal_length": 35,
+        "fstop": 2
+      },
+      {
+        "id": 12,
+        "lens_name": "Canon 40mm f/2.8",
+        "focal_length": 40,
+        "fstop": 2.8
+      },
+      {
+        "id": 13,
+        "lens_name": "Canon 45mm f/2.8",
+        "focal_length": 45,
+        "fstop": 2.8
+      },
+      {
+        "id": 14,
+        "lens_name": "Canon 50mm f/1",
+        "focal_length": 50,
+        "fstop": 1
+      },
+      {
+        "id": 15,
+        "lens_name": "Canon 50mm f/1.2",
+        "focal_length": 50,
+        "fstop": 1.2
+      },
+      {
+        "id": 16,
+        "lens_name": "Canon 50mm f/1.4",
+        "focal_length": 50,
+        "fstop": 1.4
+      },
+      {
+        "id": 17,
+        "lens_name": "Canon 50mm f/1.8",
+        "focal_length": 50,
+        "fstop": 1.8
+      },
+      {
+        "id": 18,
+        "lens_name": "Canon 50mm f/2.5",
+        "focal_length": 50,
+        "fstop": 2.5
+      },
+      {
+        "id": 19,
+        "lens_name": "Canon 60mm f/2.8",
+        "focal_length": 60,
+        "fstop": 2.8
+      },
+      {
+        "id": 20,
+        "lens_name": "Canon 65mm f/2.8",
+        "focal_length": 65,
+        "fstop": 2.8
+      },
+      {
+        "id": 21,
+        "lens_name": "Canon 85mm f/1.2",
+        "focal_length": 85,
+        "fstop": 1.2
+      },
+      {
+        "id": 22,
+        "lens_name": "Canon 85mm f/1.8",
+        "focal_length": 85,
+        "fstop": 1.8
+      },
+      {
+        "id": 23,
+        "lens_name": "Canon 90mm f/2.8",
+        "focal_length": 90,
+        "fstop": 2.8
+      },
+      {
+        "id": 24,
+        "lens_name": "Canon 100mm f/2",
+        "focal_length": 100,
+        "fstop": 2
+      },
+      {
+        "id": 25,
+        "lens_name": "Canon 100mm f/2.8",
+        "focal_length": 100,
+        "fstop": 2.8
+      },
+      {
+        "id": 26,
+        "lens_name": "Canon 135mm f/2",
+        "focal_length": 135,
+        "fstop": 2
+      },
+      {
+        "id": 27,
+        "lens_name": "Canon 135mm f/2.8",
+        "focal_length": 135,
+        "fstop": 2.8
+      },
+      {
+        "id": 28,
+        "lens_name": "Canon 180mm f/3.5",
+        "focal_length": 180,
+        "fstop": 3.5
+      },
+      {
+        "id": 29,
+        "lens_name": "Canon 200mm f/1.8",
+        "focal_length": 200,
+        "fstop": 1.8
+      },
+      {
+        "id": 30,
+        "lens_name": "Canon 200mm f/2",
+        "focal_length": 200,
+        "fstop": 2
+      },
+      {
+        "id": 31,
+        "lens_name": "Canon 200mm f/2.8",
+        "focal_length": 200,
+        "fstop": 2.8
+      },
+      {
+        "id": 32,
+        "lens_name": "Canon 300mm f/2.8",
+        "focal_length": 300,
+        "fstop": 2.8
+      },
+      {
+        "id": 33,
+        "lens_name": "Canon 300mm f/4",
+        "focal_length": 300,
+        "fstop": 4
+      },
+      {
+        "id": 34,
+        "lens_name": "Canon 400mm f/2.8",
+        "focal_length": 400,
+        "fstop": 2.8
+      },
+      {
+        "id": 35,
+        "lens_name": "Canon 400mm f/4",
+        "focal_length": 400,
+        "fstop": 4
+      },
+      {
+        "id": 36,
+        "lens_name": "Canon 400mm f/5.6",
+        "focal_length": 400,
+        "fstop": 5.6
+      },
+      {
+        "id": 37,
+        "lens_name": "Canon 500mm f/4",
+        "focal_length": 500,
+        "fstop": 4
+      },
+      {
+        "id": 38,
+        "lens_name": "Canon 500mm f/4.5",
+        "focal_length": 500,
+        "fstop": 4.5
+      },
+      {
+        "id": 39,
+        "lens_name": "Canon 600mm f/4",
+        "focal_length": 600,
+        "fstop": 4
+      }
+    ]
+  }, {
+    "id": 2,
+    "manufacturer": "Nikon",
+
+  }, {
+    "id": 3,
+    "manufacturer": "Fujifilm",
+    "lens_list": [
+      {
+        "id": 1,
+        "lens_name": "Fujifilm 14mm f/2.8",
+        "focal_length": "14",
+        "fstop": "2.8"
+      }, {
+        "id": 2,
+        "lens_name": "Fujifilm 18mm f/2",
+        "focal_length": "18",
+        "fstop": "2.0"
+      }, {
+        "id": 3,
+        "lens_name": "Fujifilm 23mm f/1.4",
+        "focal_length": "23",
+        "fstop": "1.4"
+      }, {
+        "id": 4,
+        "lens_name": "Fujifilm 27mm f/2.8",
+        "focal_length": "27",
+        "fstop": "2.8"
+      }, {
+        "id": 5,
+        "lens_name": "Fujifilm 35mm f/1.4",
+        "focal_length": "35",
+        "fstop": "1.4"
+      }, {
+        "id": 6,
+        "lens_name": "Fujifilm 56mm f/1.2",
+        "focal_length": "56",
+        "fstop": "1.2"
+      }, {
+        "id": 7,
+        "lens_name": "Fujifilm 60mm f/2.4",
+        "focal_length": "60",
+        "fstop": "2.4"
+      }
+    ]
+  }, {
+    "id": 4,
+    "manufacturer": "Sony",
+
+  }
+]

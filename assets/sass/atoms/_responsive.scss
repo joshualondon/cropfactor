@@ -1,0 +1,22 @@
+$max-width:	1120px;
+
+// base font size: 16px;
+
+$smallest:  "screen and (min-width: 26em)"; 	// 416px
+$small:     "screen and (min-width: 37.5em)"; // 600px
+$medium:    "screen and (min-width: 48em)"; 	// 768px
+$large:     "screen and (min-width: 64em)"; 	// 1024px
+$largest:   "screen and (min-width: 80em)"; 	// 1280px
+
+$high-density: 	"(-webkit-min-device-pixel-ratio: 1.5)",
+                "(min--moz-device-pixel-ratio: 1.5)",
+                "(-o-min-device-pixel-ratio: 3/2)",
+                "(min-device-pixel-ratio: 1.5)";
+
+/*
+---
+title: Responsive Design
+---
+
+While not officially supported, you're encouraged to used basic responsive design patterns
+*/

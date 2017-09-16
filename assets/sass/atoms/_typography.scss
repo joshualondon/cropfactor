@@ -1,0 +1,49 @@
+$sans-type: 'Circular Pro', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+$fw-light: 100;
+$fw-normal: 400;
+$fw-bold: 600;
+$fw-black: 900;
+$line-height: 1.5;
+
+$fs-largest: 1.383em;
+$fs-large: 1.215em;
+$fs-normal: 1rem;
+$fs-small: .878em;
+$fs-smallest: .823em;
+
+html,
+body {
+  color: $grey8;
+  font: $fw-normal $fs-normal/#{$line-height} $sans-type;
+}
+
+main {
+  a {
+    color: #3344dd;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+strong {
+  font-weight: $fw-bold;
+}
+
+p {
+  font-size: 1em;
+  line-height: $line-height+em;
+}
+
+main *::selection {
+  background: #fff2a8;
+}
+
+html,
+body,
+ul,
+li {
+  color: $grey8;
+}

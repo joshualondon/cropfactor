@@ -1,0 +1,57 @@
+---
+layout: main
+---
+
+<header class="camera-lens-picker">
+
+  {% assign cameras = site.data.cameras %}
+
+  <fieldset>
+    <label for="">Select Camera</label>
+    <select name="" class="select--camera-picker">
+      <option value="">Select</option>
+      {% for manufacturers in cameras %}
+      <optgroup label="{{ manufacturers.manufacturer }}" data-groupid="{{ manufacturers.id }}">
+        {% for camera in manufacturers.camera_list %}
+        <option data-sensor="{{ camera.sensor_type }}" data-crop="{{ camera.crop_factor }}" data-mmwidth="{{ camera.mm_width }}" data-mmheight="{{ camera.mm_height }}">{{ camera.camera_name }}</option>
+        {% endfor %}
+      </optgroup>
+      {% endfor %}
+    </select>
+  </fieldset>
+
+  {% assign lenses = site.data.lenses %}
+
+  <fieldset>
+    <label for="">Select Lens</label>
+    <select class="select--lens-picker" name="" disabled>
+      <option value="">Select</option>
+      {% for manufacturers in lenses %}
+      <optgroup label="{{ manufacturers.manufacturer }}" data-groupid="{{ manufacturers.id }}">
+        {% for lens in manufacturers.lens_list %}
+        <option data-fstop="{{ lens.fstop }}" data-focal-length="{{ lens.focal_length }}">{{ lens.lens_name }}</option>
+        {% endfor %}
+      {% endfor %}
+    </select>
+  </fieldset>
+</header>
+
+<div class="crop-result">
+  <span class="crop-result--value"></span>
+  <span class="crop-result--label">mm</span>
+</div>
+
+<div class="results">
+  <dl>
+    <dt>Crop Factor</dt>
+    <dd class="results--crop-factor">
+      <div class="camera-details--crop"></div>
+      <div class="camera-details--sensor"></div>
+      <div class="camera-details--width-height"></div>
+    </dd>
+  </dl>
+  <dl>
+    <dt>f-stop</dt>
+    <dd class="results--fstop"><span>&#402;</span></dd>
+  </dl>
+</div>
