@@ -18,6 +18,13 @@ plugins:
 
 # ----------------------------------------
 # Include/Exclude
-include: ['assets/_images/ui', 'assets/css']
+include: ['assets/_images/ui']
 exclude: ['node_modules', 'Gulpfile.js', 'package.json', 'README.md', '*.sublime-*', '.publish', '.git', 'feed.xml', 'feed.xslt.xml', 'assets/sass']
-#keep_files: ['assets/css', 'assets/js']
+keep_files: ['assets/css', 'assets/js']
+
+
+# ----------------------------------------
+# Directory structures
+# change to source and dist for easier deploy
+source      : _src
+destination : _dev

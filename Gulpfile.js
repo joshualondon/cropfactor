@@ -20,8 +20,7 @@ var gulp = require('gulp'),
   cp = require('child_process'),
   notify = require('gulp-notify'),
   shell = require('gulp-shell'),
-  runSequence = require('run-sequence'),
-  styleGuide = require('postcss-style-guide');
+  runSequence = require('run-sequence');
 
 // Constants
 const sourceRoot = '_src/';
@@ -39,7 +38,7 @@ gulp.task('css', function() {
   		browsers: ['last 5 versions', 'iOS 8']
   		})
   	]))
-    .pipe(rename('escobar.css'))
+    .pipe(rename('cropfactor.css'))
     .pipe(sourcemaps.init())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(devRoot + 'assets/css/'))
