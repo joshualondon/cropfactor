@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $white;
+  font: 1rem/1.5 -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+main {
+  position: relative;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}

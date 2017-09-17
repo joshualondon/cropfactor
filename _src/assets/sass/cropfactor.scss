@@ -1,0 +1,95 @@
+@import 'atoms/atoms';
+@import 'templates/_body';
+
+.fov-calculator {
+  margin: 3rem auto;
+  position: relative;
+
+  @media #{$medium} {
+    width: 580px;
+    //margin: auto;
+  }
+
+  header {
+    text-align: center;
+
+    h1 {
+      font-weight: $fw-light;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .background {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+}
+
+.camera-lens-pickers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3em;
+
+  @media #{$medium} {
+    flex-direction: row;
+  }
+
+  .select-container {
+    margin-bottom: 1.5em;
+
+    @media #{$medium} {
+      width: 48%;
+    }
+
+    label {
+      display: block;
+      font-size: 11px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+select {
+  appearance: none;
+  background: $white;
+  border: 1px solid $grey2;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: .5rem .75em;
+  width: 100%;
+}
+
+.crop-result {
+  border-radius: 50%;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: calc(50% + ((228px/2) + 3em));
+  width: 228px;
+  height: 228px;
+  transform: translate(-50%, 0);
+
+  .crop-result--value {
+    font-size: 6em;
+    font-weight: $fw-bold;
+    line-height: 1;
+  }
+
+  .crop-result--label {
+    background: $black;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    right: 4%;
+    top: calc(50% - 1em);
+  }
+}
