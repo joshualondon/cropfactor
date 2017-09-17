@@ -1,0 +1,123 @@
+---
+layout: main
+---
+
+<div class="fov-calculator">
+
+  <header>
+    <h1>Crop Factor</h1>
+  </header>
+
+  <div class="camera-lens-pickers">
+
+    {% assign cameras = site.data.cameras %}
+    {% assign lenses = site.data.lenses %}
+
+    <div class="select-container">
+      <label for="camera-picker">Select Camera</label>
+      <select name="camera-picker" class="select--camera-picker">
+        <option value="">Select</option>
+        {% for manufacturers in cameras %}
+        <optgroup label="{{ manufacturers.manufacturer }}" data-groupid="{{ manufacturers.id }}">
+          {% for camera in manufacturers.camera_list %}
+          <option data-sensor="{{ camera.sensor_type }}" data-crop="{{ camera.crop_factor }}" data-mmwidth="{{ camera.mm_width }}" data-mmheight="{{ camera.mm_height }}">{{ camera.camera_name }}</option>
+          {% endfor %}
+        </optgroup>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="select-container">
+      <label for="lens-picker">Select Lens</label>
+      <select name="lens-picker" class="select--lens-picker" disabled>
+        <option value="">Select</option>
+        {% for manufacturers in lenses %}
+        <optgroup label="{{ manufacturers.manufacturer }}" data-groupid="{{ manufacturers.id }}">
+          {% for lens in manufacturers.lens_list %}
+          <option data-fstop="{{ lens.fstop }}" data-focal-length="{{ lens.focal_length }}">{{ lens.lens_name }}</option>
+          {% endfor %}
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+
+  <div class="crop-result">
+    <div>
+      <span class="crop-result--value">&infin;</span>
+      <span class="crop-result--label">mm</span>
+    </div>
+  </div>
+
+  <div class="background">
+
+    <svg width="580px" height="583px" viewBox="0 0 580 583" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+        <desc>Created with Sketch.</desc>
+        <defs>
+            <filter x="-1.1%" y="-1.1%" width="102.2%" height="102.2%" filterUnits="objectBoundingBox" id="filter-1">
+                <feGaussianBlur stdDeviation="1.52064732" in="SourceGraphic"></feGaussianBlur>
+            </filter>
+            <filter x="-1.7%" y="-1.7%" width="103.5%" height="103.5%" filterUnits="objectBoundingBox" id="filter-2">
+                <feGaussianBlur stdDeviation="2.93805804" in="SourceGraphic"></feGaussianBlur>
+            </filter>
+            <filter x="-0.9%" y="-0.9%" width="101.8%" height="101.8%" filterUnits="objectBoundingBox" id="filter-3">
+                <feGaussianBlur stdDeviation="0.591517857" in="SourceGraphic"></feGaussianBlur>
+            </filter>
+            <filter x="-1.5%" y="-1.5%" width="103.0%" height="103.0%" filterUnits="objectBoundingBox" id="filter-4">
+                <feGaussianBlur stdDeviation="1.06305804" in="SourceGraphic"></feGaussianBlur>
+            </filter>
+            <filter x="-1.8%" y="-1.8%" width="103.5%" height="103.5%" filterUnits="objectBoundingBox" id="filter-5">
+                <feGaussianBlur stdDeviation="1.9140625" in="SourceGraphic"></feGaussianBlur>
+            </filter>
+            <circle id="path-6" cx="400.5" cy="399.5" r="113.5"></circle>
+            <filter x="-36.8%" y="-36.8%" width="174.4%" height="174.4%" filterUnits="objectBoundingBox" id="filter-7">
+                <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                <feGaussianBlur stdDeviation="28" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            </filter>
+        </defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Tablet" transform="translate(-109.000000, -92.000000)">
+                <g id="background" transform="translate(0.000000, -17.000000)">
+                    <g id="circles" stroke="#000000">
+                        <circle id="Oval" stroke-width="2" opacity="0.184159873" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" filter="url(#filter-1)" transform="translate(401.000000, 401.000000) rotate(-188.000000) translate(-401.000000, -401.000000) " cx="401" cy="401" r="256.321543"></circle>
+                        <circle id="rotate" stroke-width="2" opacity="0.257019928" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" filter="url(#filter-2)" transform="translate(400.500000, 400.500000) rotate(-132.000000) translate(-400.500000, -400.500000) " cx="400.5" cy="400.5" r="283.394737"></circle>
+                        <circle id="Oval" stroke-width="2" opacity="0.179177989" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="42,314,90,314" transform="translate(402.000000, 402.000000) rotate(-132.000000) translate(-402.000000, -402.000000) " cx="402" cy="402" r="246.989967"></circle>
+                        <circle id="Oval" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="90,314,90,314" filter="url(#filter-3)" cx="402" cy="402" r="123"></circle>
+                        <circle id="Oval-2" opacity="0.0995244565" cx="402" cy="402" r="123"></circle>
+                        <circle id="Oval" opacity="0.445765399" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="90,314,90,314" transform="translate(402.000000, 402.000000) rotate(-132.000000) translate(-402.000000, -402.000000) " cx="402" cy="402" r="130.089172"></circle>
+                        <circle id="Oval" stroke-width="2" opacity="0.584182518" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="32,314,90,314" filter="url(#filter-4)" transform="translate(402.000000, 402.000000) rotate(-156.000000) translate(-402.000000, -402.000000) " cx="402" cy="402" r="139.420118"></circle>
+                        <circle id="Oval" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" transform="translate(400.000000, 400.000000) rotate(-22.000000) translate(-400.000000, -400.000000) " cx="400" cy="400" r="149.802198"></circle>
+                        <circle id="Oval-2" opacity="0.215126812" cx="400" cy="400" r="149.802198"></circle>
+                        <circle id="Oval" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" transform="translate(401.000000, 401.000000) rotate(-129.000000) translate(-401.000000, -401.000000) " cx="401" cy="401" r="168.705882"></circle>
+                        <circle id="Oval" stroke-width="2" opacity="0.197690217" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" transform="translate(401.000000, 401.000000) rotate(-49.000000) translate(-401.000000, -401.000000) " cx="401" cy="401" r="178.037037"></circle>
+                        <circle id="Oval" stroke-width="2" opacity="0.479562953" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" filter="url(#filter-5)" transform="translate(401.500000, 401.500000) rotate(-230.000000) translate(-401.500000, -401.500000) " cx="401.5" cy="401.5" r="190.872294"></circle>
+                        <circle id="Oval-2" opacity="0.0335144928" cx="401.5" cy="401.5" r="190.872294"></circle>
+                        <circle id="Oval" stroke-width="2" opacity="0.115092844" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="289,314,90,314" transform="translate(401.000000, 401.000000) rotate(-132.000000) translate(-401.000000, -401.000000) " cx="401" cy="401" r="206.272"></circle>
+                    </g>
+                    <g id="value-bg">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <use fill="#252525" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
+  </div>
+</div>
+
+<!-- 
+
+<div class="results">
+  <dl>
+    <dt>Crop Factor</dt>
+    <dd class="results--crop-factor">
+      <div class="camera-details--crop"></div>
+      <div class="camera-details--sensor"></div>
+      <div class="camera-details--width-height"></div>
+    </dd>
+  </dl>
+  <dl>
+    <dt>f-stop</dt>
+    <dd class="results--fstop"><span>&#402;</span></dd>
+  </dl>
+</div> -->

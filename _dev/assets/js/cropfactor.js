@@ -69,7 +69,7 @@ $(document).ready(function () {
         calcResult = Math.round(calcResult);
         newFocalLength = $('.crop-result--value');
 
-    newFocalLength.text(calcResult);
+    newFocalLength.html(calcResult);
 
     console.log('camera crop', cameraCrop);
     console.log('focal length', focalLength);
